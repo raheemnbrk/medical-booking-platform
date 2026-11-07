@@ -48,7 +48,7 @@ export default function SideBar() {
         </NavLink>
       ))}
       <Link to={"/"}>
-        <div className="p-2 rounded-md bg-main text-white mx-auto mt-160 md:hidden w-fit">
+        <div className="p-2 rounded-md bg-main text-white mx-auto mt-136 md:hidden w-fit">
           <FiExternalLink />
         </div>
       </Link>

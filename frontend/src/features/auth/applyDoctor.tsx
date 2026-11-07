@@ -193,7 +193,7 @@ export default function ApplyDoctor() {
         <button
           type="submit"
           disabled={isPending}
-          className="w-full mt-6 mb-4 bg-main hover:bg-main/80 transition-all active:scale-95 py-3 rounded text-white font-medium text-base disabled:opacity-60 disabled:cursor-not-allowed"
+          className="w-full mt-6 mb-4 bg-main hover:bg-main/80 cursor-pointer transition-all active:scale-95 py-3 rounded text-white font-medium text-base disabled:opacity-60 disabled:cursor-not-allowed"
         >
           {isPending ? "Submitting..." : "Submit Application"}
         </button>

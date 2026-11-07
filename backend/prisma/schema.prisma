@@ -84,3 +84,11 @@ enum AppointmentStatus{
   CONFIRMED
   COMPLETED
 }
+
+model OtpCode {
+  id        String   @id @default(cuid())
+  email     String
+  code      String
+  expiresAt DateTime
+  createdAt DateTime @default(now())
+}
